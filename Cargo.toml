@@ -6,9 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ctru-rs = { path = "./ctru-rs/ctru-rs", version = "0.7.1" }
-#ctru-sys = { git = "https://github.com/rust3ds/ctru-rs.git", version = "0.4.1" }
-#linker-fix-3ds = { git = "https://github.com/Meziu/rust-linker-fix-3ds.git" }
-#pthread-3ds = { git = "https://github.com/Meziu/pthread-3ds.git" }
-bitflags = "1.0.0"
-widestring = "0.2.2"
+ctru-rs = { git = "https://github.com/rust3ds/ctru-rs", version = "0.7.1" }
+libc = "0.2.141"
+pthread-3ds = { git = "https://github.com/rust3ds/pthread-3ds.git", version = "0.1.0" }
+shim-3ds = { git = "https://github.com/rust3ds/shim-3ds.git", version = "0.1.0" }
+#thrussh = "0.33.5"
+#thrussh-keys = "0.21.0"
